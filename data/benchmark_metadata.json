@@ -1,0 +1,12 @@
+{
+  "motifs": ["TGTAAATA", "TGCAT", "ATATTC", "AAACAAA", "TTTTTTA"],
+  "length": ["UTR5_length", "UTR3_length", "CDS_length"],
+  "context_uAUG": ["stopPlus1TAAC", "stopPlus1TAAG", "stopPlus1TAAT", "stopPlus1TAGA", "stopPlus1TAGC", "stopPlus1TAGG", "stopPlus1TAGT", "stopPlus1TGAA", "stopPlus1TGAC", "stopPlus1TGAG", "stopPlus1TGAT", "num_uAUGTRUE", "startMinus3C", "startMinus3G", "startMinus3T"],
+  "codons": ["TTC", "TTA", "TTG", "TCT", "TCC", "TCA", "TCG", "TAT", "TAC", "TGT", "TGC", "TGG", "CTT", "CTC", "CTA", "CTG", "CCT", "CCC", "CCA", "CCG", "CAT", "CAC", "CAA", "CAG", "CGT", "CGC", "CGA", "CGG", "ATT", "ATC", "ATA", "ATG", "ACT", "ACC", "ACA", "ACG", "AAT", "AAC", "AAA", "AAG", "AGT", "AGC", "AGA", "AGG", "GTT", "GTC", "GTA", "GTG", "GCT", "GCC", "GCA", "GCG", "GAT", "GAC", "GAA", "GAG", "GGT", "GGC", "GGA", "GGG"],
+  "GC": ["GC_content_UTR5", "GC_content_UTR3", "GC_content_CDS"],
+  "deltaG": ["UTR5_deltaG", "UTR3_deltaG", "CDS_deltaG"],
+  "response": "hlt.wt",
+  "data_path": "./data/cerevisiae_model_data_id.rds",
+  "id": "genename",
+  "n_folds": 10
+}
